@@ -11,7 +11,7 @@ high_score = 0
 # Set up the screen
 wn = turtle.Screen()
 wn.title("Snecc Game")
-wn.bgcolor("purple")
+wn.bgcolor("chocolate")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
 
@@ -28,7 +28,7 @@ head.direction = "stop"
 food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
-food.color("red")
+food.color("green")
 food.penup()
 food.goto(0,100)
 
@@ -123,7 +123,7 @@ while True:
         new_segment = turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("grey")
+        new_segment.color("yellow")
         new_segment.penup()
         segments.append(new_segment)
 
